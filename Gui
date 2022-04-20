@@ -1,0 +1,10 @@
+local rprint
+
+if rconsolewarn then
+rconsoleclear()
+rprint = rconsolewarn
+else
+rprint = print
+end
+
+rprint("Dupe Started!")
